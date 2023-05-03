@@ -1,0 +1,58 @@
+.column {
+    height: 100vh;
+    width: 100%;
+}
+
+.cat1 {
+    background: url(../img/映画.png) no-repeat top center;
+    background-color: #CE5E52;
+    background-size: cover;
+}
+
+.info {
+    text-align: center;
+    padding-top: 40%;
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.info a{
+    text-decoration: none;
+}
+
+.info a:visited{
+    color: #fff;
+}
+
+.info a:link{
+    color: #fff;
+}
+
+.c-txt{
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+.c-txt:hover {
+    letter-spacing: 0.15em;
+  }
+
+.cat2 {
+    background: url(../img/本.png) no-repeat center center;
+    background-color: #059686;
+    background-size: cover;
+}
+
+@media all and (min-width: 500px) {
+    .wrapper {
+        display: flex;
+    }
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
